@@ -1,0 +1,273 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    background: #0a1225;
+    font-family: sans-serif;
+}
+/*headding*/
+#headding{
+    display: flex;
+    justify-content: space-between;
+}
+#headding .name a, #headding .name a h1{
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 15px;
+}
+#headding .navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+#headding .navbar ul li{
+    margin: 0px 40px;
+}
+#headding .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+#headding .navbar ul li .say{
+    background: #e1b12c;
+}
+#headding .navbar ul li a:hover{
+    background: #e1b12c;
+    text-shadow: 1px 0.2px;
+}
+/*main section*/
+main .information{
+    display: flex;
+    justify-content: space-between;
+}
+main .information .myInfo{
+    width: 600px;
+    height: auto;
+    margin-top: 250px;
+}
+main .information .myInfo .name .p1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+}
+main .information .myInfo .name .myName{
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+main .information .myInfo .name .p2{
+    font-weight: bold;
+    color: #e1b12c;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+main .information .myInfo .name span{
+    color: #fff;
+    font-size: 16px;
+}
+main .information .myInfo .contact{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+main .information .myInfo .contact a{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #e1b12c;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+main .information .myInfo .contact a:hover{
+    background: #2f3640;
+}
+main .information .myImage{
+    margin-top: 100px;
+    padding: 100px;
+}
+main .information .myImage img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #e1b12c;
+}
+/*section*/
+section .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .service .hed{
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+section .service .p3{
+    color: #e1b12c;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+section .boxSec{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+section .boxSec .sec1{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    background: #18212c;
+    padding: 30px;
+}
+section .boxSec .sec1 img{
+    height: 60px;
+    width: 60px;
+    background: #e1b12c;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+section .boxSec .sec1 h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+section .boxSec .sec1 .p4{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+section .boxSec .sec1 .sayHello a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+section .boxSec .sec1 .sayHello a:hover{
+    color: #e1b12c;
+}
+section .boxSec .sec1 .sayHello span{
+    color: #e1b12c;
+    margin-left: 10px;
+}
+/*testimonials*/
+section .testimonials .first{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section .testimonials .first .head{
+    color: #fff;
+    font-size: 55px;
+}
+section .testimonials .first .p3{
+    color: #e1b12c;
+}
+section .testimonials .testsec{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 90px;
+}
+section .testimonials .testsec .test1{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    background: #18212c;
+    padding: 30px;
+}
+section .testimonials .testsec .p6{
+    color: #fff;
+    margin-bottom: 30px;
+}
+section .testimonials .testsec img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+section .testimonials .testsec h4{
+    color: #e1b12c;
+    margin-bottom: 10px;
+}
+section .testimonials .testsec h5{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/*contact section*/
+section .contact_section .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .contact_section .second h1{
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+section .contact_section .second .p3{
+    color: #e1b12c;
+    font-size: 20px;
+}
+section .contact_section .main_parant{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+section .contact_section .main_parant .cont_s{
+    width: 350px;
+    height: 180px;
+    background: #18212c;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+section .contact_section .main_parant .cont_s .icon i{
+    color: #e1b12c;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section .contact_section .main_parant .cont_s .name_s h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+section .contact_section .main_parant .cont_s .name_s .p7{
+    text-align: center;
+    font-weight: 200;
+}
+
+/*footeer section*/
+footer .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #18212c;
+    height: 70px;
+    width: auto;
+    padding: 20px;
+    color: #fff;
+}
+footer .footer .div1 a{
+    margin-right: 50px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0.3px;
+}
+footer .footer .div1 a:hover{
+    background: #e1b12c;
+    color: #fff;
+}
