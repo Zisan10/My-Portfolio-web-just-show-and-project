@@ -1,0 +1,224 @@
+main .img_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .img_name img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #e1b12c;
+    margin-top: 100px;
+}
+main .img_name h1{
+    font-size: 55px;
+    margin-top: -50px;
+    color: #fff;
+}
+main .img_name .p1{
+    color: #e1b12c;
+    font-size: 18px;
+}
+main .ab_out{
+    margin-top: 100px;
+    padding: 10px;
+}
+main .ab_out h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #e1b12c;
+}
+main .ab_out .p2{
+    color: #d2c8c8;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 30px;
+}
+main .ab_out .p2 samp{
+    background: #dbb95b;
+    color: #000;
+}
+/*skills*/
+main .education_skills{
+    display: flex;
+    justify-content: space-between;
+}
+main .education_skills .education{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 550px;
+    border-radius: 25px;
+    background: #18212c;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 30px;
+}
+main .education_skills .education .name{
+    color: #e1b12c;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+main .education_skills .education .last_xm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+main .education_skills .education .last_xm i{
+    color: #dbb95b;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+main .education_skills .education .last_xm span{
+    color: #fff;
+    font-size: 16px;
+}
+main .education_skills .education .last_xm .p3{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+main .education_skills .skill{
+    height: 43px;
+    width: 550px;
+    background: #0a1225;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+main .education_skills .skill .html_css{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    height: 43px;
+    width: 450px;
+    background: #e1b12c;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+main .education_skills .skill2{
+    height: 43px;
+    width: 550px;
+    background: #0a1225;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+main .education_skills .skill3{
+    height: 43px;
+    width: 550px;
+    background: #0a1225;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+main .education_skills .skill4{
+    height: 43px;
+    width: 550px;
+    background: #0a1225;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+main .education_skills .skill5{
+    height: 43px;
+    width: 550px;
+    background: #0a1225;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+main .education_skills .skill2 .html_php{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    height: 43px;
+    width:250px;
+    background: #e1b12c;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+main .education_skills .skill3 .WordPress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    height: 43px;
+    width:350px;
+    background: #e1b12c;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+main .education_skills .skill4 .JavaScript{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    height: 43px;
+    width:400px;
+    background: #e1b12c;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+main .education_skills .skill5 .figma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    height: 43px;
+    width:200px;
+    background: #e1b12c;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+/*xprnc*/
+main .experience{
+    margin-bottom: 100px;
+}
+main .experience .main_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .experience .main_head h1{
+    color: #e1b12c;
+    font-size: 55px;
+}
+main .experience .main_head .p1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+main .experience .fiver{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #18212c;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    border-radius: 15px;
+}
+main .experience .fiver .img img{
+    width: 75px;
+    height: 80px;
+    margin-right: 20px;
+    border: 2px solid #e1b12c;
+    box-shadow: 0 0 5px 2px;
+}
+main .experience .fiver .des .p2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+main .experience .fiver .des .p3{
+    font-weight: 100;
+    color: #d1caca;
+}
+main .experience .fiver .des h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}

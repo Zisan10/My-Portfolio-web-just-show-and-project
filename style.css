@@ -39,7 +39,7 @@ html,body{
 }
 #headding .navbar ul li a:hover{
     background: #e1b12c;
-    text-shadow: 1px 0.2px;
+    box-shadow: 0 0 5px 2px #e1b12c;
 }
 /*main section*/
 main .information{
@@ -84,6 +84,7 @@ main .information .myInfo .contact a{
     background-color: #e1b12c;
     border-radius: 30px;
     transition: 0.5s;
+    box-shadow: 0 0 5px 2px #e1b12c;
 }
 main .information .myInfo .contact a:hover{
     background: #2f3640;
@@ -151,7 +152,8 @@ section .boxSec .sec1 .sayHello a{
     color: #fff;
     margin-right: 10px;
     transition: 0.5s;
-}
+    box-shadow: 0 0 5px 2px #e1b12c;
+}    
 section .boxSec .sec1 .sayHello a:hover{
     color: #e1b12c;
 }
@@ -270,4 +272,23 @@ footer .footer .div1 a{
 footer .footer .div1 a:hover{
     background: #e1b12c;
     color: #fff;
+    box-shadow: 0 0 5px 2px #e1b12c;
 }
+
+/* @media (max-width: 800px) {
+    nav ul li{
+        display: block;
+        margin: 5px 0;
+    }
+    header, footer{
+        text-align: center;
+    }
+}
+@media(max-width: 480px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+} */

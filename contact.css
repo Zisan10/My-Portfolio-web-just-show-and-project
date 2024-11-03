@@ -1,0 +1,252 @@
+section #main_contact_section .contact_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: px;
+}
+section #main_contact_section .contact_head h1{
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+section #main_contact_section .contact_head .p1{
+    color: #e1b12c;
+    font-size: 18px;
+}
+section #main_contact_section .cont_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+section #main_contact_section .cont_body .img_sec{
+    
+}
+section #main_contact_section .cont_body .img_sec .img img{
+    border-radius: 20px;    
+    margin-bottom: 15px;
+}
+section #main_contact_section .cont_body .name_sec{
+    color: #fff; 
+}
+section #main_contact_section .cont_body .name_sec h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section #main_contact_section .cont_body .name_sec .p2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+section #main_contact_section .cont_body .name_sec .p3{
+    font-size: 18px;
+    color: #d2cccc;
+    margin-bottom: 75px;
+    width: 435px;
+}
+section #main_contact_section .cont_body .location_sec{
+    margin-bottom: -70px;
+}
+/*start div*/
+section #main_contact_section .cont_body .location_sec .div1{
+    display: flex;
+    margin-bottom: 40px;
+}
+section #main_contact_section .cont_body .location_sec .div2{
+    display: flex;
+    margin-bottom: 40px;
+}
+section #main_contact_section .cont_body .location_sec .div3{
+    display: flex;
+    margin-bottom: 40px;
+}
+/*end div*/
+section #main_contact_section .cont_body .location_sec .div1 .icon i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #e1b12c;
+}
+section #main_contact_section .cont_body .location_sec .div2 .icon i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #e1b12c;
+}
+section #main_contact_section .cont_body .location_sec .div3 .icon i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #e1b12c;
+}
+/**/
+section #main_contact_section .cont_body .location_sec .div1 .loc_des h4{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+section #main_contact_section .cont_body .location_sec .div2 .loc_des h4{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+section #main_contact_section .cont_body .location_sec .div3 .loc_des h4{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+/**/
+section #main_contact_section .cont_body .location_sec .div1 .loc_des .p1{
+    color: #d4cbcb;
+}
+section #main_contact_section .cont_body .location_sec .div2 .loc_des .p1{
+    color: #d4cbcb;
+}
+section #main_contact_section .cont_body .location_sec .div3 .loc_des .p1{
+    color: #d4cbcb;
+}
+/*form section start*/
+section #main_contact_section .cont_body .form form{
+    margin-left: px;
+}
+section #main_contact_section .cont_body .form .fn_ln{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+/*fn ln*/
+section #main_contact_section .cont_body .form .fn_ln .fn{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+section #main_contact_section .cont_body .form .fn_ln .ln{
+    display: flex;
+    flex-direction: column;
+}
+/*label*/
+section #main_contact_section .cont_body .form .fn_ln .fn label{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: px;
+}
+section #main_contact_section .cont_body .form .fn_ln .ln label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+/*input*/
+section #main_contact_section .cont_body .form .fn_ln .fn input[type="text"]{
+    width: 250px;
+    height: 40px;
+    background: #0f1930;
+    border-radius: 10px;
+    border: 1px solid #e3dcdc;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+section #main_contact_section .cont_body .form .fn_ln .fn input:focus{
+    border: 2px solid #e1b12c;
+    outline: none;
+    box-shadow: 0 0 5px 2px #fdc836;
+}
+section #main_contact_section .cont_body .form .fn_ln .ln input[type="text"]{
+    width: 250px;
+    height: 40px;
+    background: #0f1930;
+    border-radius: 10px;
+    border: 1px solid #e3dcdc;
+    font-size: 18px;
+    font-weight: bold;
+}
+section #main_contact_section .cont_body .form .fn_ln .ln input:focus{
+    border: 2px solid #e1b12c;
+    outline: none;
+    box-shadow: 0 0 5px 2px #fdc836;
+}
+/*pla*/
+section #main_contact_section .cont_body .form .fn_ln .fn input::placeholder{
+    color: #b3afaf;
+    padding: 10px;
+}
+section #main_contact_section .cont_body .form .fn_ln .ln input::placeholder{
+    color: #b3afaf;
+    padding: 10px;
+}
+/*email*/
+section #main_contact_section .cont_body .form .email{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+section #main_contact_section .cont_body .form .email label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+section #main_contact_section .cont_body .form .email input[type="email"]{
+    width: 100%;
+    height: 40px;
+    background: #0f1930;
+    border-radius: 10px;
+    border: 1px solid #e3dcdc;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+section #main_contact_section .cont_body .form .email input:focus{
+    border: 2px solid #e1b12c;
+    outline: none;
+    box-shadow: 0 0 5px 2px #fdc836;
+}
+section #main_contact_section .cont_body .form .email input::placeholder{
+    color: #b3afaf;
+    padding: 10px;
+}
+section #main_contact_section .cont_body .form .email .p1{
+    color: #b3afaf;
+}
+/*sms*/
+section #main_contact_section .cont_body .form .sms{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+section #main_contact_section .cont_body .form .sms label{
+    color: #fff;
+    margin-bottom: 20px;
+}
+section #main_contact_section .cont_body .form .sms textarea{
+    width: 100%;
+    height: 60px;
+    background: #0f1930;
+    border-radius: 10px;
+    border: 1px solid #e3dcdc;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+section #main_contact_section .cont_body .form .sms textarea:focus{
+    border: 2px solid #e1b12c;
+    outline: none;
+    box-shadow: 0 0 5px 2px #fdc836;
+}
+section #main_contact_section .cont_body .form .sms textarea::placeholder{
+    color: #b3afaf;
+    padding: 10px;
+}
+/*submit*/
+section #main_contact_section .cont_body .form .button input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    background: #e1b12c;
+    border-radius: 10px;
+    border: 1px solid #e3dcdc;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*
+section #main_contact_section .cont_body .form .button input:focus{
+    border: 2px solid #e1b12c;
+    outline: none;
+    box-shadow: 0 0 5px 2px #fdc836;
+} */
